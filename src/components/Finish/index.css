@@ -1,0 +1,50 @@
+.final-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pannel-heading {
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+  min-width: 90%;
+  background-color: lightgrey;
+}
+
+.result-heading {
+  text-align: left;
+}
+
+.home-link {
+  margin-left: 100px;
+  color: blue;
+}
+
+.score-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  min-width: 90%;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.correct {
+  color: green;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.wrong {
+  color: red;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 30px;
+}

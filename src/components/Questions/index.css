@@ -1,0 +1,63 @@
+.panel-container {
+  padding: 20px;
+}
+
+.heading-cotainer {
+  background-color: lightgrey;
+  min-height: 45px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.panel-body {
+  border: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.heading {
+  padding-top: 5px;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.button-container {
+  background-color: lightgray;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+}
+
+.button {
+  border-radius: 5px;
+  border-width: 0px;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+
+.prev-button {
+  margin-right: 5px;
+  background-color: green;
+}
+
+.nxt-button {
+  margin-right: 5px;
+  background-color: green;
+}
+
+.finish-button {
+  margin-left: 400px;
+  background-color: red;
+}
